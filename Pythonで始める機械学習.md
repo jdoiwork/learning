@@ -1,0 +1,16 @@
+# Google Colabで実行する上で詰まったところ
+## 1章
+### `mglearn` の `import` でエラーになる
+
+`!pip` でpipコマンドを実行できる。
+
+```Notebook
+!pip install mglearn
+```
+
+### `pd.scatter_matrix` が無い
+`pd.scatter_matrix`は廃止されたっぽいので、`pd.scatter_matrix`の代わりに`pd.plotting.scatter_matrix`を使う。
+
+```Notebook
+grr = pd.plotting.scatter_matrix( # ...
+```
