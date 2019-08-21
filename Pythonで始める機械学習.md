@@ -2,7 +2,7 @@
 ## 1章
 ### `mglearn` の `import` でエラーになる
 
-`!pip` でpipコマンドを実行できる。
+Colab上でも`!pip`を使うことで`pipコマンド`を実行できる。
 
 ```Notebook
 !pip install mglearn
