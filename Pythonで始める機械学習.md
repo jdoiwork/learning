@@ -1,3 +1,5 @@
+オライリー書籍[Pythonで始める機械学習](https://www.oreilly.co.jp/books/9784873117980/)の学習メモ
+
 # Google Colabで実行する上で詰まったところ
 ## 1章
 ### `mglearn` の `import` でエラーになる
