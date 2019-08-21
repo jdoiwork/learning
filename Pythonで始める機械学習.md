@@ -10,6 +10,9 @@ Colab上でも`!pip`を使うことで`pipコマンド`を実行できる。
 !pip install mglearn
 ```
 
+#### 参考
+- [Importing a library that is not in Colaboratory](https://colab.research.google.com/notebooks/snippets/importing_libraries.ipynb)
+
 ### `pd.scatter_matrix` が無い
 `pd.scatter_matrix`は廃止されたっぽいので、`pd.scatter_matrix`の代わりに`pd.plotting.scatter_matrix`を使う。
 
