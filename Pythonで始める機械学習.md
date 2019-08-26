@@ -19,3 +19,11 @@ Colab上でも`!pip`を使うことで`pipコマンド`を実行できる。
 ```Notebook
 grr = pd.plotting.scatter_matrix( # ...
 ```
+
+## 2章
+### mglearnがない
+
+```Notebook
+!pip install mglearn
+import mglearn
+```
