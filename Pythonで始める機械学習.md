@@ -21,9 +21,15 @@ grr = pd.plotting.scatter_matrix( # ...
 ```
 
 ## 2章
-### mglearnがない
+### mglearn が not define
 
 ```Notebook
 !pip install mglearn
 import mglearn
+```
+
+### plt が not define
+```Notebook
+%matplotlib inline
+import matplotlib.pyplot as plt
 ```
