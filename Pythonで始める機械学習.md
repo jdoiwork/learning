@@ -33,3 +33,7 @@ import mglearn
 %matplotlib inline
 import matplotlib.pyplot as plt
 ```
+### np が not define
+```Notebook
+import numpy as np
+```
